@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>lightbox Gallery</title>
+</head>
+<body>
+<div class="lightbox-gallery">
+    <div class="lightbox d-flex justify-content-center align-items-center">
+        <div class="lightbox-images flex-column text-right">
+            <span class="lightbox-icons close icon-cancel"></span>
+            <img src="#" alt="Image" class="lightbox-item d-block my-3">
+            <div class="lightbox-info d-flex justify-content-between pt-3">
+                <span class="img-name pl-5"></span>
+                <span class="img-number pr-5"></span>
+            </div>
+        </div>
+        <ul class="lightbox-controls">
+            <li><span class="lightbox-icons prev icon-hand-o-left"></span></li>
+            <li><span class="lightbox-icons next icon-hand-o-right"></span></li>
+        </ul>
+    </div>
+</div>
+<section class="container-fluid text-center gallery">
+    <h1>Lightbox Gallery</h1>
+    <ul class="image-gallery row py-5">
+        <li class="image-item col-12 col-sm-6 col-lg-4">
+            <picture>
+                <source srcset="img/audi.webp" type="image/webp">
+                <img src="img/audi.jpg" alt="Audi" class="img-fluid card-img">
+            </picture>
+        </li>
+        <li class="image-item col-12 col-sm-6 col-lg-4">
+            <picture>
+                <source srcset="img/eyes.webp" type="image/webp">
+                <img src="img/eyes.jpg" alt="Eyes" class="img-fluid card-img">
+            </picture>
+        </li>
+        <li class="image-item col-12 col-sm-6 col-lg-4">
+            <picture>
+                <source srcset="img/flowers.webp" type="image/webp">
+                <img src="img/flowers.jpg" alt="Flowers" class="img-fluid card-img">
+            </picture>
+        </li>
+        <li class="image-item col-12 col-sm-6 col-lg-4">
+            <picture>
+                <source srcset="img/lamborghini.webp" type="image/webp">
+                <img src="img/lamborghini.jpg" alt="Lamborghini" class="img-fluid card-img">
+            </picture>
+        </li>
+        <li class="image-item col-12 col-sm-6 col-lg-4">
+            <picture>
+                <source srcset="img/river.webp" type="image/webp">
+                <img src="img/river.jpg" alt="River" class="img-fluid card-img">
+            </picture>
+        </li>
+        <li class="image-item col-12 col-sm-6 col-lg-4">
+            <picture>
+                <source srcset="img/tie.webp" type="image/webp">
+                <img src="img/tie.jpg" alt="Tie" class="img-fluid card-img">
+            </picture>
+        </li>
+    </ul>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="js/my-lightbox.js" defer></script>
+</body>
+</html>
