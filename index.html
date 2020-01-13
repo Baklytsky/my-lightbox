@@ -9,6 +9,7 @@
     <title>lightbox Gallery</title>
 </head>
 <body>
+<section class="wrapper">
 <div class="lightbox-gallery">
     <div class="lightbox d-flex justify-content-center align-items-center">
         <div class="lightbox-images flex-column text-right">
@@ -25,9 +26,9 @@
         </ul>
     </div>
 </div>
-<section class="container-fluid text-center gallery">
-    <h1>Lightbox Gallery</h1>
-    <ul class="image-gallery row py-5">
+<div class="container-fluid text-center gallery indent">
+    <h1 class="py-2">Lightbox Gallery</h1>
+    <ul class="image-gallery row indent">
         <li class="image-item col-12 col-sm-6 col-lg-4">
             <picture>
                 <source srcset="img/audi.webp" type="image/webp">
@@ -65,8 +66,8 @@
             </picture>
         </li>
     </ul>
+</div>
 </section>
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
